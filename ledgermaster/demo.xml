@@ -1,0 +1,59 @@
+<TALLYMESSAGE xmlns:UDF="TallyUDF">
+     <LEDGER NAME="Capital A/c" RESERVEDNAME="">
+        <PRIORSTATENAME>Bihar</PRIORSTATENAME>
+        <PARENT>Capital Account</PARENT>
+        <COUNTRYOFRESIDENCE>India</COUNTRYOFRESIDENCE>
+        <LEDGERCOUNTRYISDCODE>+91</LEDGERCOUNTRYISDCODE>
+        <SORTPOSITION> 1000</SORTPOSITION>
+        <OPENINGBALANCE>1000.00</OPENINGBALANCE>
+        <LANGUAGENAME.LIST>
+        <NAME.LIST>
+            <NAME>Capital A/c</NAME>
+        </NAME.LIST>
+        </LANGUAGENAME.LIST>
+     </LEDGER>
+</TALLYMESSAGE>
+
+
+<!--  -->
+<TALLYMESSAGE>
+    <LEDGER NAME="Capital A/c">
+        <PARENT>Capital Account</PARENT>
+        <OPENINGBALANCE>1000.00</OPENINGBALANCE>
+    </LEDGER>
+</TALLYMESSAGE>
+
+
+<!-- creating multiple ledger at once -->
+
+
+<TALLYMESSAGE>
+
+     <LEDGER NAME="D1">
+        <PARENT>Capital Account</PARENT>
+        <LANGUAGENAME.LIST>
+        <NAME.LIST>
+            <NAME>D1</NAME>
+        </NAME.LIST>
+        </LANGUAGENAME.LIST>
+     </LEDGER>
+
+     <LEDGER NAME="D2">
+        <PARENT>Capital Account</PARENT>
+        <LANGUAGENAME.LIST>
+        <NAME.LIST>
+            <NAME>D2</NAME>
+        </NAME.LIST>
+        </LANGUAGENAME.LIST>
+     </LEDGER>
+
+     <LEDGER NAME="D3">
+        <PARENT>Capital Account</PARENT>
+        <LANGUAGENAME.LIST>
+        <NAME.LIST>
+            <NAME>D3</NAME>
+        </NAME.LIST>
+        </LANGUAGENAME.LIST>
+     </LEDGER>
+     
+</TALLYMESSAGE>

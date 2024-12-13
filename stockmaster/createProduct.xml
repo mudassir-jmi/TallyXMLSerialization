@@ -1,0 +1,72 @@
+
+<TALLYMESSAGE>
+    <UNIT NAME="Box">
+        <NAME>Box</NAME>
+        <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+    </UNIT>
+
+    <STOCKITEM NAME="Bisleri Bottle">
+        <NAME>Bisleri Bottle</NAME>
+        <BASEUNITS>Box</BASEUNITS>
+        <OPENINGBALANCE>5 Box</OPENINGBALANCE>
+        <OPENINGVALUE>-100.00</OPENINGVALUE>
+        <OPENINGRATE>20.00</OPENINGRATE>
+        <LANGUAGENAME.LIST>
+            <NAME>Bisleri Bottle</NAME>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+
+    <UNIT NAME="Pcs">
+        <NAME>Pcs</NAME>
+        <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+    </UNIT>
+
+    <STOCKITEM NAME="LED Bulb">
+        <NAME>LED Bulb</NAME>
+        <BASEUNITS>Pcs</BASEUNITS>
+        <OPENINGBALANCE>5 Pcs</OPENINGBALANCE>
+        <OPENINGVALUE>-1000.00</OPENINGVALUE>
+        <OPENINGRATE>200.00</OPENINGRATE>
+        <LANGUAGENAME.LIST>
+            <NAME>LED Bulb</NAME>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+
+</TALLYMESSAGE>
+
+
+
+
+<!-- After Serialize -->
+
+<?xml version="1.0" encoding="utf-16"?>
+<TALLYMESSAGE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UNIT NAME="Box">
+    <NAME>Box</NAME>
+    <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+  </UNIT>
+  <UNIT NAME="Pcs">
+    <NAME>Pcs</NAME>
+    <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+  </UNIT>
+  <STOCKITEM NAME="Bisleri Bottle">
+    <NAME>Bisleri Bottle</NAME>
+    <BASEUNITS>Box</BASEUNITS>
+    <OPENINGBALANCE>5 Box</OPENINGBALANCE>
+    <OPENINGVALUE>-100.00</OPENINGVALUE>
+    <OPENINGRATE>20.00</OPENINGRATE>
+    <LANGUAGENAME.LIST>
+      <NAME>Bisleri Bottle</NAME>
+    </LANGUAGENAME.LIST>
+  </STOCKITEM>
+  <STOCKITEM NAME="LED Bulb">
+    <NAME>LED Bulb</NAME>
+    <BASEUNITS>Pcs</BASEUNITS>
+    <OPENINGBALANCE>5 Pcs</OPENINGBALANCE>
+    <OPENINGVALUE>-1000.00</OPENINGVALUE>
+    <OPENINGRATE>200.00</OPENINGRATE>
+    <LANGUAGENAME.LIST>
+      <NAME>LED Bulb</NAME>
+    </LANGUAGENAME.LIST>
+  </STOCKITEM>
+</TALLYMESSAGE>

@@ -1,0 +1,18 @@
+
+<TALLYMESSAGE>
+
+     <LEDGER NAME="D4">
+        <PARENT>Capital Account</PARENT>
+        <LANGUAGENAME.LIST>
+          <NAME>D4</NAME>
+        </LANGUAGENAME.LIST>
+     </LEDGER>
+
+     <LEDGER NAME="D5">
+        <PARENT>Capital Account</PARENT>
+        <LANGUAGENAME.LIST>
+            <NAME>D5</NAME>
+        </LANGUAGENAME.LIST>
+     </LEDGER>
+  
+</TALLYMESSAGE>

@@ -1,0 +1,205 @@
+
+<TALLYMESSAGE xmlns:UDF="TallyUDF">
+    <STOCKITEM NAME="Dell i3" RESERVEDNAME="">
+        <GUID>08800489-f925-43c0-98a8-73fbeb2e7d63-00000112</GUID>
+        <OBJECTUPDATEACTION>Create</OBJECTUPDATEACTION>
+        <ISDELETED>No</ISDELETED>
+        <ISUPDATINGTARGETID>No</ISUPDATINGTARGETID>
+        <ASORIGINAL>Yes</ASORIGINAL>
+        <PARENT>Stock In Hand</PARENT> <!-- Default parent, adjust if needed -->
+        <CATEGORY>&#4; Not Applicable</CATEGORY>
+        <GSTAPPLICABLE>&#4; Not Applicable</GSTAPPLICABLE>
+        <COSTINGMETHOD>Avg. Cost</COSTINGMETHOD>
+        <VALUATIONMETHOD>Avg. Price</VALUATIONMETHOD>
+        <BASEUNITS>Nos</BASEUNITS> <!-- Using unit "Nos" -->
+        <OPENINGBALANCE>5 Nos</OPENINGBALANCE>
+        <OPENINGVALUE>100000.00</OPENINGVALUE>
+        <OPENINGRATE>20000.00/Nos</OPENINGRATE>
+        <ALTERID>386</ALTERID>
+        <UPDATEDDATETIME>20241211173746000</UPDATEDDATETIME>
+        <LANGUAGENAME.LIST>
+            <NAME.LIST TYPE="String">
+                <NAME>Dell i3</NAME>
+            </NAME.LIST>
+            <LANGUAGEID>1033</LANGUAGEID>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+</TALLYMESSAGE>
+
+
+
+
+<!-- Creating Hp Stock Item Successfully  -->
+<TALLYMESSAGE>
+    <STOCKITEM NAME="Hp i5">
+        <OBJECTUPDATEACTION>Create</OBJECTUPDATEACTION>
+        <ISDELETED>No</ISDELETED>
+        <ISUPDATINGTARGETID>No</ISUPDATINGTARGETID>
+        <ASORIGINAL>Yes</ASORIGINAL>
+        <PARENT/>
+        <COSTINGMETHOD>Avg. Cost</COSTINGMETHOD>
+        <VALUATIONMETHOD>Avg. Price</VALUATIONMETHOD>
+        <BASEUNITS>Nos</BASEUNITS>
+        <OPENINGBALANCE>2 Nos</OPENINGBALANCE>
+        <OPENINGVALUE>10000.00</OPENINGVALUE>
+        <OPENINGRATE>5000.00/Nos</OPENINGRATE>
+         <LANGUAGENAME.LIST>
+            <NAME.LIST TYPE="String">
+                <NAME>Hp i5</NAME>
+            </NAME.LIST>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+</TALLYMESSAGE>
+
+
+<!-- Creating Hp Stock Item Successfully  -->
+<TALLYMESSAGE>
+    <STOCKITEM NAME="Hp i5">
+        <PARENT/>
+        <BASEUNITS>Nos</BASEUNITS>
+        <OPENINGBALANCE>2 Nos</OPENINGBALANCE>
+        <OPENINGVALUE>10000.00</OPENINGVALUE>
+        <OPENINGRATE>5000.00/Nos</OPENINGRATE>
+         <LANGUAGENAME.LIST>
+            <NAME.LIST TYPE="String">
+                <NAME>Hp i5</NAME>
+            </NAME.LIST>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+</TALLYMESSAGE>
+
+
+<!-- Minimum Code for Creating Hp Stock Item Successfully  -->
+<TALLYMESSAGE>
+    <STOCKITEM>
+         <LANGUAGENAME.LIST>
+            <NAME.LIST TYPE="String">
+                <NAME>Hp i5</NAME>
+            </NAME.LIST>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+</TALLYMESSAGE>
+
+
+<!-- creating with base unit -->
+<TALLYMESSAGE>
+    <STOCKITEM>
+        <BASEUNITS>Nos</BASEUNITS>
+        <OPENINGBALANCE>2 Nos</OPENINGBALANCE>
+        <OPENINGVALUE>10000.00</OPENINGVALUE>
+        <OPENINGRATE>5000.00/Nos</OPENINGRATE>
+         <LANGUAGENAME.LIST>
+            <NAME.LIST TYPE="String">
+                <NAME>Hp i5</NAME>
+            </NAME.LIST>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+</TALLYMESSAGE>
+
+
+
+<!-- Creating Unit as well as Stock Item -->
+
+<TALLYMESSAGE>
+    <UNIT NAME="Pcs">
+        <NAME>Pcs</NAME>
+        <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+    </UNIT>
+    <STOCKITEM>
+        <BASEUNITS>Pcs</BASEUNITS>
+        <OPENINGBALANCE>5 Pcs</OPENINGBALANCE>
+        <OPENINGVALUE>-1000.00</OPENINGVALUE>
+        <OPENINGRATE>200.00</OPENINGRATE>
+         <LANGUAGENAME.LIST>
+            <NAME.LIST TYPE="String">
+                <NAME>LED Bulb</NAME>
+            </NAME.LIST>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+</TALLYMESSAGE>
+
+
+
+
+<!-- creating multiple unit and multiple stock item -->
+
+
+<TALLYMESSAGE>
+    <UNIT NAME="Box">
+        <NAME>Box</NAME>
+        <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+    </UNIT>
+</TALLYMESSAGE>
+
+<TALLYMESSAGE>
+    <STOCKITEM>
+        <NAME>Bisleri Bottle</NAME>
+        <BASEUNITS>Box</BASEUNITS>
+        <OPENINGBALANCE>5 Box</OPENINGBALANCE>
+        <OPENINGVALUE>-100.00</OPENINGVALUE>
+        <OPENINGRATE>20.00</OPENINGRATE>
+        <LANGUAGENAME.LIST>
+            <NAME>Bisleri Bottle</NAME>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+</TALLYMESSAGE>
+
+<TALLYMESSAGE>
+    <UNIT NAME="Pcs">
+        <NAME>Pcs</NAME>
+        <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+    </UNIT>
+</TALLYMESSAGE>
+
+<TALLYMESSAGE>
+    <STOCKITEM>
+        <NAME>LED Bulb</NAME>
+        <BASEUNITS>Pcs</BASEUNITS>
+        <OPENINGBALANCE>5 Pcs</OPENINGBALANCE>
+        <OPENINGVALUE>-1000.00</OPENINGVALUE>
+        <OPENINGRATE>200.00</OPENINGRATE>
+        <LANGUAGENAME.LIST>
+            <NAME>LED Bulb</NAME>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+</TALLYMESSAGE>
+
+
+<!-- multiple unit -->
+
+<TALLYMESSAGE>
+    <UNIT NAME="Box">
+        <NAME>Box</NAME>
+        <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+    </UNIT>
+
+    <STOCKITEM NAME="Bisleri Bottle">
+        <NAME>Bisleri Bottle</NAME>
+        <BASEUNITS>Box</BASEUNITS>
+        <OPENINGBALANCE>5 Box</OPENINGBALANCE>
+        <OPENINGVALUE>-100.00</OPENINGVALUE>
+        <OPENINGRATE>20.00</OPENINGRATE>
+        <LANGUAGENAME.LIST>
+            <NAME>Bisleri Bottle</NAME>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+
+    <UNIT NAME="Pcs">
+        <NAME>Pcs</NAME>
+        <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+    </UNIT>
+
+    <STOCKITEM NAME="LED Bulb">
+        <NAME>LED Bulb</NAME>
+        <BASEUNITS>Pcs</BASEUNITS>
+        <OPENINGBALANCE>5 Pcs</OPENINGBALANCE>
+        <OPENINGVALUE>-1000.00</OPENINGVALUE>
+        <OPENINGRATE>200.00</OPENINGRATE>
+        <LANGUAGENAME.LIST>
+            <NAME>LED Bulb</NAME>
+        </LANGUAGENAME.LIST>
+    </STOCKITEM>
+
+</TALLYMESSAGE>
+
+
