@@ -15,7 +15,6 @@ namespace TallyXMLSerialization
         public StockItem[] StockItems { get; set; }
 
         [XmlElement("LEDGER")]
-        //public List<Ledger> Ledgers { get; set; }
         public Ledger[] Ledgers { get; set; }
     }
 
@@ -58,7 +57,6 @@ namespace TallyXMLSerialization
         public string[] LanguageNames { get; set; }
     }
 
-    // Class to represent the LEDGER element
     public class Ledger
     {
         [XmlAttribute("NAME")]
@@ -67,23 +65,45 @@ namespace TallyXMLSerialization
         [XmlElement("PARENT")]
         public string Parent { get; set; }
 
-        [XmlArray("LANGUAGENAME.LIST")]
-        [XmlArrayItem("Name")]
-        public string[] LanguageNames { get; set; }
+        [XmlElement("NAME")]
+        public string LedgerName { get; set; }
+
+        [XmlElement("LEDGSTREGDETAILS.LIST")]
+        public LedgstRegDetails GstRegDetails { get; set; }
+
+        [XmlElement("LEDMAILINGDETAILS.LIST")]
+        public LedMailingDetails MailingDetails { get; set; }
     }
 
-    // Class for LANGUAGENAME.LIST inside LEDGER
-    //public class LanguageNameList
-    //{
-    //    [XmlElement("NAME.LIST")]
-    //    public NameList Names { get; set; }
-    //}
+    public class LedgstRegDetails
+    {
+        [XmlElement("APPLICABLEFROM")]
+        public string ApplicableFrom { get; set; }
 
-    // Class for NAME.LIST inside LANGUAGENAME.LIST
-    //public class NameList
-    //{
-    //    [XmlElement("NAME")]
-    //    public string Name { get; set; }
-    //}
+        [XmlElement("GSTREGISTRATIONTYPE")]
+        public string GstRegistrationType { get; set; }
+
+        [XmlElement("GSTIN")]
+        public string GstIn { get; set; }
+    }
+
+    public class LedMailingDetails
+    {
+        [XmlArray("ADDRESS.LIST")]
+        [XmlArrayItem("ADDRESS")]
+        public List<string> AddressList { get; set; }
+
+        [XmlElement("APPLICABLEFROM")]
+        public string ApplicableFrom { get; set; }
+
+        [XmlElement("MAILINGNAME")]
+        public string MailingName { get; set; }
+
+        [XmlElement("STATE")]
+        public string State { get; set; }
+
+        [XmlElement("COUNTRY")]
+        public string Country { get; set; }
+    }
 
 }
