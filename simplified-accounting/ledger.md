@@ -6,7 +6,7 @@ firm name -- name
 
 contact person name
 
-mobile number -- no mapping
+mobile number
 
 city -- no mapping
 

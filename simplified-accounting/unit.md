@@ -2,8 +2,8 @@
 
 Name
 
-description
+description -- formal name
 
-value
+value -- not present
 
-Eway Unit (UQC)
+Eway Unit -- (UQC)
